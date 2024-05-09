@@ -2,19 +2,58 @@ body {
     margin: 0px;
     display: flex;
     justify-content: center;
-    background-color: plum;
-
+    width: 1024x;
+    height: 6076px;
 }
 
 #main-container {
-    background-color: plum;
+    padding: 0%;
+    background-color: #EFCFE6;
+    justify-content: center;
     width: 1024px;
-    height: 3000px;
-    border: solid 1px black;
+    
 }
 
+#headerbox {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 160px;
+    background-color: #E7B2CF;
+}
 
+#secondbox {
+    justify-content: center;
+    height: 100px;
+    background-color: #DD83C2;
+
+}
+
+#thirdbox {
+
+}
 
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60pt;
+    color: #BA1B86;
+    display: flex;
+    justify-content: center;
 }
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40pt;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#logo {
+    height: 330px;
+    width: 410px;
+    display: flex;
+    justify-content: start;
+}
+
+
+
