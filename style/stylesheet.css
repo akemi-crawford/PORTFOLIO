@@ -9,51 +9,123 @@ body {
 #main-container {
     padding: 0%;
     background-color: #EFCFE6;
-    justify-content: center;
     width: 1024px;
     
 }
 
-#headerbox {
+#logo {
     display: flex;
-    flex-flow: column;
+    justify-content: center;
+    height: 300px;
+    width: 380px;
+    
+}
+
+#topbox {
+    display: flex;
     justify-content: center;
     height: 160px;
     background-color: #E7B2CF;
 }
 
 #secondbox {
+    display: flex;
     justify-content: center;
-    height: 100px;
+    height: 150px;
     background-color: #DD83C2;
 
 }
 
-#thirdbox {
-
-}
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 60pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 58pt;
     color: #BA1B86;
-    display: flex;
     justify-content: center;
 }
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 38pt;
     color: white;
+    justify-content: center;
+
+}
+
+#navs {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#navigationone {
+    
+width: 237px;
+height: 61px;
+background-color: white;
+justify-content: space-around;
+
+}
+
+h3 {
+    color: #E7B1CE;
+    font-size: 24pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: center;
 }
-#logo {
-    height: 330px;
-    width: 410px;
-    display: flex;
-    justify-content: start;
+
+#navigationtwo {
+   
+width: 237px;
+height: 61px;
+background-color: white;
+justify-content: space-around;
+
 }
 
+h4 {
+    color: #E7B1CE;
+    font-size: 24pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
 
+#navigationthree {
+   
+    width: 237px;
+    height: 61px;
+    background-color: white;
+    justify-content: space-around;
+    
+    }
 
+    h5 {
+        color: #E7B1CE;
+        font-size: 24pt;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+
+    #navigationfour {
+        width: 237px;
+        height: 61px;
+        background-color: white;
+        justify-content: space-around;
+        display: flex;
+        flex-flow: wrap;
+        
+        
+        }
+    
+        h6 {
+            color: #E7B1CE;
+            font-size: 24pt;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: flex;
+            justify-content: center;
+        }
+
+        
